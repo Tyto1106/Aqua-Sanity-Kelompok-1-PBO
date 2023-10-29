@@ -15,5 +15,6 @@ public class AquaSanityKelompok1PBO {
 
         LoginSystem login = new LoginSystem(systemUsername, systemPassword);
         login.login();
+        
     }
 }

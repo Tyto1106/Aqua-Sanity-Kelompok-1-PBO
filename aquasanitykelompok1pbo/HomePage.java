@@ -9,5 +9,17 @@ package aquasanitykelompok1pbo;
  * @author ACER
  */
 public class HomePage {
-    
+    private String welcomeMessage;
+    private String featuredContent;
+
+    public HomePage(String welcomeMessage, String featuredContent) {
+        this.welcomeMessage = welcomeMessage;
+        this.featuredContent = featuredContent;
+    }
+
+    public void displayPageInfo() {
+        System.out.println("Welcome Message: " + welcomeMessage);
+        System.out.println("Featured Content: " + featuredContent);
+    }
 }
+

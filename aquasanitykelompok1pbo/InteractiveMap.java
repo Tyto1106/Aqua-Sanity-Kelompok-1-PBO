@@ -9,5 +9,16 @@ package aquasanitykelompok1pbo;
  * @author ACER
  */
 public class InteractiveMap {
-    
+    private String daerah;
+
+    public InteractiveMap(String daerah) {
+        this.daerah = daerah;
+    }
+
+    public String getDaerah() {
+        return daerah;
+    }
+    public void setDaerah(String daerah) {
+        this.daerah = daerah;
+    }
 }
